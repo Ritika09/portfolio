@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <title>Ratnesh Kumar</title>
+  <link rel="stylesheet" type="text/css" href="css/mayBe.css">
+  <script type="text/javascript" src="js/mayBe.js"></script>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+          <div class="container">
+
+            <div class="row">
+              <nav class="col-sm-3" id="myScrollspy">
+                    <ul class="nav nav-pills nav-stacked">
+                      <li><img src="images/HomeImage.jpg" alt="My Image"
+                          class="img-thumbnail hidden-print">
+                        </li>
+                      <li><a href="#section1">About</a></li>
+                      <li><a href="#section2">Projects</a></li>
+                      <li><a href="#section3">Utilities</a></li>
+                      <li><a href="#section4">My CV</a></li>
+                      <li><a href="#section5">Professional Activities</a></li>
+                      </ul></nav>
+
+              <div class="col-sm-8">
+                <section><h1>Ratnesh Kumar</h1></section>
+                <section id="section1">
+
+                    <p>I work on problems relating to Video Understanding: Video Segmentation, Multiple Object Tracking, Action Localization/Detection.</p>
+                    <p>Broadly I am interested in Computer Vision using Discrete / Continuous Optimization and Machine Learning. I also like to work on Image Processing related problems.</p>
+                    <p>Please refer to my <a href="#section2">Projects</a>
+                    page for details on current and previous works of mine.</p>
+                    <p>I defended (Dec - 2014) my PhD at <a href="https://team.inria.fr/stars/">STARS TEAM</a>, INRIA, Sophia Antipolis. My thesis can be found here:
+                    <a href="https://tel.archives-ouvertes.fr/tel-01096638v1"><mark> THESIS </mark></a>.<br/>I did my Masters at
+                    <a href="http://www.ece.ufl.edu/">University of Florida</a> in 2010 and Bachelors of Engineering at <a href="http://www.manipal.edu/institutions/engineeringandit/mit/">Manipal University</a> , INDIA in 2007.</p>
+          </section>
+        <section id="section2">
+          <h2>Projects</h2>
+          <div>
+            <h3>Vehicle Re-identification:</h3> <p>We demonstrate the importance of sampling data during training of triplet loss. for the task of vehicle re-identification.</p>
+          <img src="https://sites.google.com/site/kumarratnesh198521/home/research/triplet_webpage.png?attredirects=0" alt="ImageOfVehicleReidentification">
+          <p> &bull; Ratnesh Kumar, Edwin Weill, el al. Vehicle Re-identification: An Efficient BaselineUsing Triplet Embedding,<strong><ins>IEEE IJCNN' 2019.
+          </ins></strong>
+            <a href="https://arxiv.org/pdf/1901.01015.pdf">&lbrack;pdf &rbrack;</a></p>
+            <p>&bull;<strong><ins>&nbsp;Co-author for CityFlow Benchmark at CVPR 2019 - Oral. </ins></strong></p>
+          </div>
+            <h3>Exploiting Global Features for Robust Pose Tracking:</h3><p>In this work, we improve pose tracking using global color and motion features. Global motion feature computation is aided by extracting multiple "diverse" solutions from a model. </p>
+            <h5>Comparative Output on VideoPose</h5>
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/Co72-6tdLQQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <p> &bull; Ratnesh Kumar, Dhruv Batra. Pose Tracking by Efficiently Exploiting Global Features, <strong><ins>IEEE WACV' 2016.</ins></strong>
+              <a href="https://www.dropbox.com/s/fw59kgxi9ec1hjj/main_with_supp.pdf?dl=0">&lbrack;pdf &rbrack;</a>
+              <a href="https://www.dropbox.com/s/s66p8hv05scsmra/pose-tracking-efficiently.pdf?dl=0">&lbrack;Poster&rbrack;</a>
+              <a href="https://www.dropbox.com/s/erly2wv71jc7nmh/wacv16.pdf?dl=0">&lbrack;Presentation-Slides&rbrack;</a>
+            </p>
+            <h3>Multiple Object Tracking :</h3>
+              <p>In this work, we view multiple object tracking as a graph partitioning problem. Given any object detector, we build the graph of all detections and aim to partition it into trajectories. To quantify the similarity of any two detections, we consider local cues such as point tracks and speed, global cues such as appearance, as well as intermediate ones such as trajectory straightness. These different clues are dealt jointly to make the approach robust to detection mistakes (missing or extra detections). We thus define a Conditional Random Field and optimize it using an efficient combination of message passing and move-making algorithms. Our approach is fast on video batch sizes of hundreds of frames. Competitive and stable results on varied videos demonstrate the robustness and efficiency of our approach.</p>
+               <p>&lbrack;MRF, Multi-labeling , Message Passing, Iterated Conditional Modes&rbrack;</p>
+               <div>
+               <h5>PETS S2L1 comparative output.</h5>
+               <iframe width="480" height="270" src="https://www.youtube.com/embed/6z3N9zViu60" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+               </iframe></div>
+               <p>&bull;Ratnesh Kumar, Guillaume Charpiat, Monique Thonnat.  Multiple Object tracking by Efficient Graph Partitioning. <strong><ins>ACCV' 2014.</ins></strong>
+               <a href="https://www.dropbox.com/s/1gry21ulep0ypt0/tracking_with_supp.pdf?dl=0"> &lbrack;pdf&rbrack;</a>
+               <a href="https://www.dropbox.com/s/purq3n50tobrri7/multiple-object-tracking.pdf?dl=0">[Poster]</a></p>
+               <div><img src="https://sites.google.com/site/kumarratnesh198521/_/rsrc/1472868045663/home/research/flipper.png?height=50%25&width=50%25" alt="Graph Positioning">
+                <p><em>Smaller circles indicate detections (nodes) and collapsing them helps in swift optimization : O(|V|^2), instead of O(|V|^6), for correcting a faulty labeling (leftmost).</em></p></div>
+              <div><h3>Video Representation : </h3>
+                 In this work we aim to join spatial and temporal aspect of a video into a single notion : Fiber. A Fiber is a set of trajectories spatially connected with a triangular mesh.
+                  <h6>Pros:</h6>
+                 <ol>
+                  <li>A spatio-temporal neighborhood system to compute various relevant criterions.</li>
+                  <li>Unlike approaches based on super-pixels, a fiber is built jointly by considering spatial and temporal aspects of a video.</li>
+                  <li> In addition to providing association label for a pixel, we also provide a "long term" temporal reliability measure which assesses long term temporal color coherency.</li>
+                </ol>
+                <div>
+                  <h5>Inpainting demo</h5>
+                  <iframe width="480" height="270" src="https://www.youtube.com/embed/zLdiUZ292aA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <p>&bull; Ratnesh Kumar, et al. Hierarchical Representation of Videos with Spatio-Temporal Fibers, <strong><ins>IEEE WACV’ 2014.</ins></strong>
+                    <a href="http://hal.inria.fr/docs/00/91/10/12/PDF/Fibers.pdf">&lbrack;pdf&rbrack;</a>
+                    <a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxrdW1hcnJhdG5lc2gxOTg1MjF8Z3g6NzNjNTc1NjJiOGFjNDVlNQ">&lbrack;Poster&rbrack;</a>
+                    <a href="https://www.youtube.com/playlist?list=PLPQ1DMYHQ6b9_23ZNWQpjbUJ841yxSwRE">&lbrack;Videos&rbrack;</a>
+                    <a href="http://www-sop.inria.fr/stars/Documents/fibers/wacv.pdf">&lbrack;Slides&rbrack;</a>
+                  </p>
+                  <img src="https://sites.google.com/site/kumarratnesh198521/_/rsrc/1472868042490/home/research/dist3.png?height=50%25&width=40%25" alt="inputOutput">
+                </div>
+              </div>
+              <div>
+                <h3>Distance Correlation based Feature Descriptor : </h3>
+                <p>Traditional covariance measures only linear relationship between random variables. To overcome this, recently a novel measure is proposed by [Szekely & Rizzo 2009] using ideas stemming from the Brownian Motion. Distance correlation between two random variables is zero iff they are independent or the samples are identical.</p>
+                <p>&bull;Slawomir Bak, Ratnesh Kumar, Francois Bremond. Brownian descriptor: A Rich Meta-Feature for Appearance Matching,<strong><ins>IEEE WACV’ 2014.</ins></strong>
+                  <a href="http://www-sop.inria.fr/members/Slawomir.Bak/pdfs/bak-wacv2014.pdf">&lbrack;pdf&rbrack;</a></p>
+                  <img src="https://sites.google.com/site/kumarratnesh198521/_/rsrc/1472868049933/home/research/dist.png?height=50%25&width=35%25" alt="brownianCorrelation">
+                  <p>More Information on Brownian (Distance) Correlation can be found on this webpage :<a href="http://archive.is/7TVzZ">&lbrack;Link&rbrack;</a></p>
+              </div>
+              <div>
+                <h4>Other Projects</h4>
+                <div class="insectClass">
+                  <h3>Insect Classification in Greenhouse :</h3>
+                  <p> The purpose is to develop a classification system for the automatic detection of harmful insects in greenhouse plants. The classifier needs to decide among three classes : whitefly, greenfly or a background (i.e. false positive from the detection)</p>
+                  <img src="images/InsectClass.png" alt="InsectClass"><br>
+                  <p>&bull;R. Kumar, V.Martin, S.Moisan, Robust insect classification applied to real time greenhouse infes-tation monitoring,
+                    <strong><ins> VAIB workshop, ICPR 2010.</ins></strong>
+                   <a href="http://homepages.inf.ed.ac.uk/rbf/VAIB10PAPERS/kumarvaib.pdf">&lbrack;pdf&rbrack;</a></p>
+                  <p>&bull;A detailed report on detection of insects using affine invariant corners, and insect classification can be found here
+                    <a href="https://sites.google.com/site/kumarratnesh198521/home/research/report_classification.pdf?attredirects=0">&lbrack;pdf&rbrack;</a></p>
+                </div>
+                <div>
+                  <h3>Tree Counting in Areal Images : </h3>
+                  <p> The workflow consists of low pass filtering and anisotropic diffusion to smooth out small gradients and, subsequently detecting blobs using zero crossings of the second derivative in the diffused image. Its motivated from the work on olive-tree extraction in satellite images by [K. G. Karantzalos , D. P. Argialas 2004]</p>
+                  <img src="images/tree_count.png" alt="TreeCounting">
+                </div>
+                <div>
+                  <h3>Diseased and Healthy Leaf Classification for Citrus Trees :</h3>
+                  <p>As can be noticed in the following figure, the texture differs significantly for the diseased leaf. Hence the use of Haralick's features for classification. </p>
+                  <img src="images/canker_healthy.png" alt="cankerHealthy"><br><br>
+                  <p>&bull; &nbsp;C. Wetterich, R. Kumar, S. Sankaran, J. Belasque Jr., R. Ehsani and L. Marcassa. ”A comparative study on application of computer vision and fluorescence imaging spectroscopy for detection of Huanglongbing citrus disease in USA and Brazil”
+                    <strong><ins>Journal of Spectroscopy, 2012.</ins></strong>
+                  <a href="http://www.hindawi.com/journals/jspec/2013/841738/">&lbrack;pdf&rbrack;</a></p>
+                </div>
+              </div>
+          </section>
+        <section id="section3">
+          <div><h2>Utilities</h2>
+          <h5>List of utilities and tools used during my PhD.</h5>
+          <h6>Readings and utilities for Inference Algorithms</h6>
+          <ol>
+            <li>Loeliger, H.-A., "An introduction to factor graphs," Signal Processing Magazine, IEEE ,  2004.</li>
+            <li>Jonathan S. Yedidia, William T. Freeman, and Yair Weiss. Understanding belief propagation and its generalizations, 2003</li>
+          <li>Kschischang, F.R.; Frey, B.J.; Loeliger, H.-A., "Factor graphs and the sum-product algorithm," Information Theory, IEEE Transactions on , 2001.</li>
+          <li>Chapter 8 in Bishop's PRML book.</li>
+          <li>An indispensable read for comparison of various discrete energy minimization algorithms : "A Comparative Study of Modern Inference Techniques for Discrete Energy Minimization Problems", CVPR, 2013.</li></ol>
+          <p><strong>OpenGM (C++) :</strong> Apart from their fast implementations of algorithms like Lazy-flipper and many more, this library also provides easiest way of interfacing a host of other libraries like libdai, Grante, FastPD, MPLP and others. This also provides interfaces to optimization libraries like CPLEX and GUROBI.
+          <a href="http://hci.iwr.uni-heidelberg.de/opengm2/">&lbrack;link&rbrack;</a></p>
+          <p> Various Inference and Optimization algorithms by Thomas Schonermann : Includes recently proposed Generalized Sequential TRW
+            <a href="https://github.com/Thomas1205/Optimization-Toolbox">
+              &lbrack;link&rbrack;</a></p>
+          <div><strong> Related Online Courses : </strong>
+                <a href="https://www.coursera.org/course/optimization">Discrete Optimization , </a>
+                <a href="https://www.coursera.org/course/linearprogramming">Linear and Integer Programming ,</a>
+                <a href="https://www.coursera.org/course/artificialvision">Discrete Inference and Learning ,</a>
+                <a href="https://www.youtube.com/watch?v=fpw26tpHGr8&feature=youtu.be">
+                  Daniel Cremers Video Lectures</a>
+          </div>
+          </div></section>
+        <section id="section4">
+          <h2>My CV</h2>
+          <p>Those of us in academia have ridiculously long CVs.  I have included an abridged version here.</p>
+          <iframe src="resume_ratnesh.pdf"></iframe>
+          </section>
+          <section id="section5">
+            <h2>Professional Activities</h2>
+          </section>
+      </div>
+    </div>
+  </div>
+<!--page-container -->
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- If you don't have the files saved locally, make sure to link it in CodePen, just like you linked the CSS. -->
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+body{
+    padding: 1%;
+    margin: 1%;
+    position: relative;
+}
+ul.nav-pills{
+    top: 20px;
+    position: fixed;
+    overflow: auto;
+    height: 100vh;
+    }
+
+h1,h2,h3,h4,h5{
+  font-family:'Saira Extra Condensed',serif;
+  font-weight:600;
+  text-transform:uppercase;
+  color:#343a40;
+}
+h1{
+    font-size:5rem;
+    line-height:5.5rem;
+    color:#990000;
+    text-align: center;
+  }
+
+h2{
+  font-size:3.5rem;
+}
+h3{
+    font-size: 2rem;
+    color: #990000;
+}
+h5 iframe{
+    border: none;
+}
+h6{
+    font-weight: bold;
+}
+
+nav a{
+    width: 27%;
+    font-family:'Saira Extra Condensed',serif;
+    font-weight:700;
+    text-transform: uppercase;
+}
+
+nav img{
+    width: 27%;
+    height: auto;
+}
+
+section img{
+    width: 85%;
+    height: auto;
+}
+.insectClass img{
+    width: 25%;
+}
+.videoStyle{
+    margin: 0 auto;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555555;
+}
+
+#section4 iframe{
+  width: 95%;
+  height: 95vh;
+  margin:0 auto;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 810px) {
+    .col-sm-8{
+      margin-left: 150px;
+    }
+  }
