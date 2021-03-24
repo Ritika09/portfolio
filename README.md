@@ -18,6 +18,11 @@ Side clickable menu bar.
 ### **Launch :**
 To run this project open or double click the index.
 
+### **Questions :**
+If any questions please email me at 
+- ritikamamta88@gmail.com
+- Or create an Issues
+
 ### **Looks Like :**
 ![portfolioImage](imagePortfolio.png)
 
